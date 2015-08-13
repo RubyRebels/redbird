@@ -1,5 +1,6 @@
 * [gitter.im](https://gitter.im/RubyRebels/redbird)
 * [waffle.io](https://waffle.io/RubyRebels/redbird)
+* [Model Checklist](https://gist.github.com/CITguy/6b26a4277beb0bb8f119)
 
 ## README
 
