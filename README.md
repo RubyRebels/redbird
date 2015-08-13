@@ -1,3 +1,5 @@
+* [gitter.im](https://gitter.im/RubyRebels/redbird)
+
 ## README
 
 This README would normally document whatever steps are necessary to get the
