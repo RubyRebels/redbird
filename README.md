@@ -1,4 +1,5 @@
 * [gitter.im](https://gitter.im/RubyRebels/redbird)
+* [waffle.io](https://waffle.io/RubyRebels/redbird)
 
 ## README
 
