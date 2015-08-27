@@ -61,3 +61,6 @@ end
 group :test do
   gem 'rake'
 end
+
+# Add Windows support - when timezone information is not found
+gem 'tzinfo-data'
