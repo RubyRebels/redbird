@@ -12,7 +12,7 @@
 
     <% if user_signed_in? %>
       <p>Signed in as <%= current_user.name %></p>
-      <%= link_to "Log Out", logout_path, method: :delete %>
+      <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
     <% else %>
       <%= link_to "Sign In with Github", user_omniauth_authorize_path(:github) %>
     <% end %>
