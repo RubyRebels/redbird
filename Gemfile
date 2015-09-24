@@ -34,6 +34,8 @@ gem 'omniauth-github'
 gem 'cancancan'
 # gem 'kaminari', github: 'amatsuda/kaminari'
 
+gem 'activeadmin', '~> 1.0.0.pre2'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', '~> 0.4.0', group: :doc
