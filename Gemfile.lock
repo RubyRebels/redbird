@@ -38,6 +38,7 @@ GEM
       tzinfo (~> 1.1)
     arel (6.0.3)
     bcrypt (3.1.10)
+    bcrypt (3.1.10-x86-mingw32)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
@@ -58,6 +59,7 @@ GEM
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.10)
+    ffi (1.9.10-x86-mingw32)
     formatador (0.2.5)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
@@ -105,6 +107,8 @@ GEM
     nenv (0.2.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    nokogiri (1.6.6.2-x86-mingw32)
+      mini_portile (~> 0.6.0)
     notiffany (0.0.7)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -128,6 +132,11 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry (0.10.1-x86-mingw32)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+      win32console (~> 1.3)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -204,6 +213,7 @@ GEM
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
     sqlite3 (1.3.10)
+    sqlite3 (1.3.10-x86-mingw32)
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
@@ -212,6 +222,8 @@ GEM
     tilt (1.4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2015.6)
+      tzinfo (>= 1.0.0)
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -222,10 +234,12 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
+    win32console (1.3.2-x86-mingw32)
     yard (0.8.7.6)
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   byebug
@@ -243,6 +257,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   sqlite3
   therubyracer
+  tzinfo-data
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
   yard
