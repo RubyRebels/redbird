@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 20150922174835) do
   add_index "areas", ["address_id"], name: "index_areas_on_address_id"
 
   create_table "organizations", force: :cascade do |t|
-    t.string   "name"
+    t.string   "name",       null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
