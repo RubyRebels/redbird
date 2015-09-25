@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 2.0'
 # gem 'unicorn'
 
 gem 'devise'
-# gem 'omniauth-github'
+gem 'omniauth-github'
 # gem 'omniauth-twitter'
 # gem 'omniauth-facebook'
 # gem 'omniauth-google-oauth2'
@@ -61,3 +61,6 @@ end
 group :test do
   gem 'rake'
 end
+
+# Add Windows support - when timezone information is not found
+gem 'tzinfo-data'
