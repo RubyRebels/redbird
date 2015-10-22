@@ -4,6 +4,9 @@ class User < ActiveRecord::Base
   # :recoverable, :validatable, :trackable, :timeoutable and :omniauthable
   devise :trackable, :rememberable, :omniauthable
 
+  scope :normal, ->{ where(admin: false) }
+  scope :admin, ->{ where(admin: true) }
+
 
   def self.from_omniauth(auth)
     ## This will get around strong parameters
